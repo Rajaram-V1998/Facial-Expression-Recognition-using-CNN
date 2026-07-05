@@ -1,0 +1,164 @@
+# Facial Expression Recognition using Keras and OpenCV
+
+## Project Overview
+
+This project detects human facial expressions from images and live webcam video using Deep Learning.
+
+The model classifies emotions into the following categories:
+
+- Angry
+- Disgust
+- Fear
+- Happy
+- Sad
+- Surprise
+- Neutral
+
+The project uses the FER2013 dataset and a Convolutional Neural Network (CNN).
+
+---
+
+## Features
+
+✔ Face Detection
+
+✔ Emotion Recognition
+
+✔ Live Webcam Prediction
+
+✔ Image Prediction
+
+✔ CNN Model
+
+✔ OpenCV Integration
+
+---
+
+## Dataset
+
+FER2013
+
+Download:
+
+https://www.kaggle.com/datasets/msambare/fer2013
+
+Place the dataset inside
+
+dataset/FER2013
+
+---
+
+## Technologies Used
+
+- Python
+- TensorFlow
+- Keras
+- OpenCV
+- NumPy
+- Matplotlib
+
+---
+
+## Model Architecture
+
+Conv2D
+
+↓
+
+ReLU
+
+↓
+
+MaxPooling
+
+↓
+
+Conv2D
+
+↓
+
+MaxPooling
+
+↓
+
+Flatten
+
+↓
+
+Dense
+
+↓
+
+Dropout
+
+↓
+
+Softmax
+
+---
+
+## Installation
+
+```bash
+git clone https://github.com/username/Facial-Expression-Recognition-OpenCV-Keras.git
+
+cd Facial-Expression-Recognition-OpenCV-Keras
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Train Model
+
+```bash
+python src/train.py
+```
+
+---
+
+## Webcam Detection
+
+```bash
+python src/webcam.py
+```
+
+---
+
+## Predict Image
+
+```bash
+python src/predict.py
+```
+
+---
+
+## Results
+
+Training Accuracy:
+95%
+
+Validation Accuracy:
+72-75%
+
+---
+
+## Future Improvements
+
+- Mobile Deployment
+- Real-time Emotion Tracking
+- Attention Mechanism
+- Transfer Learning
+- TensorFlow Lite Conversion
+
+---
+
+## Author
+
+Your Name
+
+B.Tech Artificial Intelligence & Data Science
